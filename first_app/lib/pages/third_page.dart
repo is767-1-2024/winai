@@ -13,7 +13,13 @@ class ThirdPage extends StatelessWidget{
       body: Center(
         child: Column(
           children: [
-            NameCard(),
+            NameCard(
+              data: NameCardData(
+                name: 'Winai',
+                dob: 'xx / xx /xxxx',
+                imageUrl: 'https://mentor2code.com/assets/img/logo-small.png',
+              ),
+            ),
             Text('This page intentially blank'),
           ],
         ),
